@@ -114,8 +114,8 @@ section{padding:96px 0}
   display:flex;align-items:center;gap:12px;font-size:.85rem;font-weight:500
 }
 .card-1{bottom:24px;left:24px}
-.card-2{top:24px;right:24px;background:var(--ink);color:#0A0A0A}
-.card-2 small{color:rgba(0,0,0,.7)}
+.card-2{top:24px;right:24px;background:var(--ink);color:#000000}
+.card-2 small{color:rgb(0, 0, 0)}
 
 /* Illustration image placeholder */
 .illus{
