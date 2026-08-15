@@ -350,4 +350,15 @@ footer a:hover{color:var(--gold)}
   .footer-grid{grid-template-columns:1fr}
   .stat-grid{grid-template-columns:1fr 1fr}
   .marquee-inner{gap:24px;font-size:.75rem}
+  body{padding-bottom:68px}
 }
+
+.mobile-lead-bar{display:none}
+@media (max-width:760px){
+  .mobile-lead-bar{position:fixed;z-index:1000;left:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr;background:#fff;box-shadow:0 -8px 30px rgba(11,25,48,.18);padding:9px max(12px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));gap:9px}
+  .mobile-lead-bar a{display:flex;align-items:center;justify-content:center;min-height:46px;border-radius:10px;color:#fff;font-weight:700}
+  .mobile-call{background:var(--ink)}
+  .mobile-whatsapp{background:#168c4e}
+}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
